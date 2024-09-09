@@ -1,4 +1,4 @@
-#FOR LOOPING
+#FOR LOOPING    start,stop,step
 a=4
 for i in range(a,20,2):
     print(i)
