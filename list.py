@@ -33,6 +33,5 @@ for i in range(1,10,1):
         pass
        # continue
         #break
-
     print(i)
     
