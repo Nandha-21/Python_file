@@ -10,3 +10,10 @@ for i in range(len(a)):
     for j in range(i + 1):
         print(a[j], end=' ')
     print("\n")  
+
+'''a = ["HELLOWORLD"]
+for i in a:
+    x =(a.index(i))
+    z = x + 1
+    print(z[x], end=' ')'''
+    

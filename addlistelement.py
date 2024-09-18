@@ -2,7 +2,7 @@
     #APPEND
     #EXTEND
     #INSERT
-''''list=[]
+list=[]
 print(list)
 #add value in end/last element of list and only one value/single value
 list.append(10)
@@ -21,10 +21,10 @@ del list
 s=[20,30,40,50]
 #remove element list
 s.remove(20)
-print(s)'''
+print(s)
 
 #min and max value  in list
-''''l1=[5,10,20,30,40,50]
+l1=[5,10,20,30,40,50]
 z=0
 x=min(l1)
 print(x)
@@ -41,10 +41,10 @@ for i in l1:
 if z==1:
     print("value is available")
 else:
-    print("value is not available")'''
+    print("value is not available")
 
 #task delete the value        
-'''a = int(input("Enter a number to remove: "))
+a = int(input("Enter a number to remove: "))
 k = [10, 20, 30, 40, 50, 60]
 if a in k:
     index = k.index(a)
@@ -65,17 +65,17 @@ if z==1:
     k.remove(a)
     print(k)
 else:
-    print("Number not found")'''
+    print("Number not found")
 
 
-'''list1=[20,30,450,33]
+list1=[20,30,450,33]
 del list1[3]
 print(list1)
 list1.clear()
-print(list1)'''
+print(list1)
 
 m=[10,30,20,20,30,44,45,45,50,44,47,60]
-'''n=[]
+n=[]
 for i in m:
     if i not in n:
         n.append(i)
@@ -85,6 +85,6 @@ print(n)
 print(m)
 
 #m=input("enter a number")
-'''
+
 
 
