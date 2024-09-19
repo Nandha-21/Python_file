@@ -1,4 +1,4 @@
-''''a=int(input("Enter a value:"))
+a=int(input("Enter a value:"))
 b=int(input("Enter b value:"))
 c=input("Enter operator value=")
 if(c=="+"):
@@ -12,7 +12,7 @@ elif(c=="/"):
 elif(c=="%"):
     print("ans:",a/b)
 else:
-    print("Nothing")'''
+    print("Nothing")
 
 z=input("Enter the word:")
 x=0

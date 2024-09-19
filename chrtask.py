@@ -5,15 +5,16 @@ for i in range(64,71):
         j+=1
     print("\n")
 
+#helloworld
 a = "HELLOWORLD"
 for i in range(len(a)):
     for j in range(i + 1):
         print(a[j], end=' ')
-    print("\n")  
-
-'''a = ["HELLOWORLD"]
+    print("\n")
+    
+#
+s=" "
 for i in a:
-    x =(a.index(i))
-    z = x + 1
-    print(z[x], end=' ')'''
+    s+=i
+    print(s, end=' ')
     

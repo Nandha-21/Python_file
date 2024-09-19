@@ -65,3 +65,15 @@ print(a.count("l"))
 #chr()
 a=65
 print(chr(a))
+
+#SORT
+c=[20,10,25,23,19,32,21]
+print(c.sort())
+print(c)
+
+print(c.sort(reverse=True))
+print(c)
+#COPY
+d=c.copy
+print(c)
+
