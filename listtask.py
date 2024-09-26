@@ -23,7 +23,6 @@ for j in customer:
     else:
         print("not available")'''
 
-
 '''cust=["nandha","kumar","sai","sri","arun"]
 amt=[1500,1700,1250,2010,2300]
 send=input("enter the sender name")
@@ -53,7 +52,7 @@ for i in cust:
             b+=1
             break'''
 
-cust = ["nandha", "kumar", "sai", "sri", "arun"]
+'''cust = ["nandha", "kumar", "sai", "sri", "arun"]
 amt = [1500, 1700, 1250, 2010, 2300]
 
 send = input("Enter the sender's name: ")
@@ -92,7 +91,7 @@ for i in cust:
 else:
     print("Recipient not available")
 
-print("Updated balances:", amt)
+print("Updated balances:", amt)'''
 
     
         

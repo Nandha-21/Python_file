@@ -22,7 +22,7 @@ print(z)
 #change the value
 z[3]=25
 z=tuple(z)
-print(z)
+print(z,type(z))
 
 #accessing single element in tuple
 
