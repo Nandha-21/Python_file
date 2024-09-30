@@ -48,7 +48,7 @@ def cal():
         print("invaild selection")
 cal()
 '''
-
+'''
 def input_fun():
     a=int(input("Enter the value 1:"))
     b=int(input("Enter the value 2:"))
@@ -78,7 +78,7 @@ def cal(a,b,c):
     else:
         print("invaild selection")
 input_fun()
-
+'''
 
 #sample
     #local
@@ -99,5 +99,14 @@ def enclosed_fun():
 print(z)
 enclosed_fun()
 '''
+a=10
+def demo():
+    global a
+    print(a)
+    a=1
+
+demo()
+
+
 
 

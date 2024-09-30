@@ -147,8 +147,11 @@ for i in range(10):
     d=input("enter a price:")
     e=input("enter a date")
    # q.update({a:{b,c,d,e}})
+#or
     q[a]={'product':b,"id-":c,"price":d,"date":e}
 print(q)
 
+#task2
+a={}
 
     

@@ -1,27 +1,34 @@
 #task
-'''customer=["nandha","kumar","sai","sri","arun"]
-amount=[1500,1400,1250,1430,2300]
-sender=input("Enter Sender name:")
-receiver=input("Enter Receiver name:")
-senderamount=int(input("Enter you amount name:"))
-for i in customer:
-    if(i==sender):
-        x=(customer.index(i))
-        print("the amount is",amount[x])
-        y = amount[x] - senderamount
-        print(sender,"current bsalance:",y)
-        break
-    else:
-        print("not available")
-        
-for j in customer:
-    if(j==receiver):
-        x=(customer.index(j))
-        z = amount[x] + senderamount
-        print(receiver,"current balance:",z)
-        break
-    else:
-        print("not available")'''
+#sender amount using function
+def input_1():
+    customer=["nandha","kumar","sk","sri","vj"]
+    amount=[1500,1400,1250,1430,2300]
+    sender=input("Enter Sender name:")
+    receiver=input("Enter Receiver name:")
+    senderamount=int(input("Enter you amount name:"))
+    
+   # return customer,amount,sender,receiver,senderamount
+#or
+    fun(customer,amount,sender,receiver,senderamount)
+    
+def fun(customer,amount,sender,receiver,senderamount):
+    for i in customer:
+        if(i==sender):
+            x=(customer.index(i))
+            print("the amount is",amount[x])
+            y = amount[x] - senderamount
+            print(sender,"current balance:",y)
+            break
+    for j in customer:
+        if(j==receiver):
+            x=(customer.index(j))
+            z = amount[x] + senderamount
+            print(receiver,"current balance:",z)
+            break
+#customer,amount,sender,receiver,senderamount=input_1()
+#fun_i(customer,amount,sender,receiver,senderamount)
+        #or
+input_1()
 
 '''cust=["nandha","kumar","sai","sri","arun"]
 amt=[1500,1700,1250,2010,2300]
