@@ -137,6 +137,7 @@ for i in range(0,5):
 print(z)
 '''
 #task1
+'''
 q={}
 for i in range(10):
     a=input("enter a keys1:")
@@ -150,8 +151,18 @@ for i in range(10):
 #or
     q[a]={'product':b,"id-":c,"price":d,"date":e}
 print(q)
-
+'''
 #task2
+'''
 a={}
-
+l=['name','age','city']
+z=int(input("Enter a number pair:"))
+for i in range(z):
+    x=input("Enter a Key")
+    y=[]
+    for j in i:
+        y[j]=input(j)
+    a[x]=y
+print(a)
+'''
     
