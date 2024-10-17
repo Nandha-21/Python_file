@@ -20,12 +20,31 @@ a1=person("nk",20)
 a2=person1()
 a2.hello()
 del a1
+'''
 
+#super constructor
+'''
+class parent:
+    def __init__(self,Id,name):
+        self.Id=Id
+        self.name=name
+class child(parent):
+    def __init__(self,Id,name,age):
+        super().__init__(Id,name)
+        self.age=age
+    def print(self):
+        print(self.Id)
+        print(self.name)
+        print(self.age)
+c=child(101,"raja",20)
+c.print()
+'''
 
 #data member
 # two type are
         #Public
         #private
+'''
 class member:
     a="nandha"#public
     __a1="kumar"#private
